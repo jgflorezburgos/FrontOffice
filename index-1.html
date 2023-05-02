@@ -29,159 +29,91 @@
 
     <nav class="home-2">
         <div class="container">
-            <div class="d-flex align-items-center justify-content-between">
-                <a href="index-2.html" class="mobile_logo d-block d-lg-none">
-                    <img loading="lazy"  src="assets/images/svg/logo-white.svg" alt="logo">
-                </a>
-               
-                <div class="search_wrap d-none d-lg-block">
+            <div class="d-flex align-items-center">
+                <div class="logo">
+                    <a href="index-1.html">
+                        <img loading="lazy"  src="assets/images/svg/logo.svg" alt="logo">
+                    </a>
+                </div>
 
-                    <!-- <div class="search d-flex">
-                        <div class="search_category">
+                <ul class="nav_bar flex-grow-1">
+                    <li class="withsubs">
+                        <a href="index-1.html">Home <span><i class="las la-angle-down"></i></span></a>
+                        <ul class="subnav">
+                            <li><a href="index-1.html">Home page 1 </a></li>
+                            <li><a href="index-2.html">Home page 2</a></li>
+                            <li><a href="index-3.html">Home page 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="withsubs">
+                        <a href="shop-list.html">Shop <span><i class="las la-angle-down"></i></span></a>
+                        <ul class="subnav">
+                            <li><a href="shop-list.html">List view </a></li>
+                            <li><a href="shop-grid.html">Grid view</a></li>
+                            <li><a href="shop-grid-2.html">Grid view 2</a></li>
+                            
+                            <li><a href="shopping-cart.html">Shopping cart</a></li>
+                            <li><a href="product-view.html">Product view</a></li>
+                        </ul>
+                    </li>
+                    <li class="withsubs">
+                        <a href="shop-list.html">Pages <span><i class="las la-angle-down"></i></span></a>
+                        <div class="subnav py-3 px-2 d-flex gx-4">
+                            <div class="single_subnav">
+                                <h5 class="text_lg ps-3 mb-2">Others pages</h5>
+                                <ul>
+                                    <li><a href="about-us.html">About us</a></li>
+                                    <li><a href="contact-us.html">Contact us</a></li>
+
+                                    <li><a href="track-order.html">Track order</a></li>
+                                    <li><a href="faq.html">FAQ</a></li>
+                                    <li><a href="404.html">404</a></li>
+                                </ul>
+                            </div>
+                            <div class="single_subnav">
+                                <h5 class="text_lg ps-3 mb-2">Account pages</h5>
+                                <ul>
+                                    <li><a href="account.html">My Account</a></li>
+                                    <li><a href="login.html">Login</a></li>
+                                    <li><a href="register.html">Register</a></li>
+                                    <li><a href="forgot-password.html">Forgot password</a></li>
+                                </ul>
+                            </div>
+                            <div class="single_subnav">
+                                <h5 class="text_lg ps-3 mb-2">Checkout page</h5>
+                                <ul>
+                                    <li><a href="checkout.html">Checkout</a></li>
+                                    <li><a href="payment.html">Payment</a></li>
+                                    <li><a href="wish-list.html">Wishlist</a></li>
+                                    <li><a href="order-completed.html">Order complete</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="contact-us.html">contact</a></li>
+                    <li class="tophead_items ms-auto">
+                        <div class="me-3">
+                            <a class="text-semibold me-0" href="login.html">login</a><span class="text_xs">/</span><a
+                                class="text-semibold" href="register.html">Register</a>
+                        </div>
+                        <div>
                             <select class="nice_select">
-                                <option value="">All category</option>
-                                <option value="">Men</option>
+                                <option>Language</option>
+                                <option>English</option>
+                                <option>Franch</option>
                             </select>
                         </div>
-                        <div class="search_input">
-                            <input type="text" placeholder="Search product..." id="show_suggest">
+                        <div class="ms-3">
+                            <select class="nice_select">
+                                <option>Currency</option>
+                                <option>Dollar</option>
+                                <option>Euro</option>
+                            </select>
                         </div>
-                        <div class="search_subimt">
-                            <button>
-                                <span class="d-none d-sm-inline-block">Search</span>
-                                <span class="d-sm-none d-inline-block"><i class="icon-search-left"></i></span>
-                            </button>
-                        </div>
-                    </div> -->
-                    <div class="search_suggest shadow-sm">
-                        <div class="search_result_product">
-                           
-                        </div>
-                    </div>
-                </div>
-                <div class="header_icon d-flex align-items-center">
-                    <a href="wish-list.html" class="icon_wrp text-center wishlist ms-0">
-                        <span class="icon">
-                            <i class="icon-heart"></i>
-                        </span>
-                        <span class="icon_text">Wish List</span>
-                        <span class="pops">6</span>
-                    </a>
-                    <div class="shopcart">
-                        <a href="shopping-cart.html" class="icon_wrp text-center d-none d-lg-block">
-                            <span class="icon">
-                                <i class="icon-cart"></i>
-                            </span>
-                            <span class="icon_text">Cart</span>
-                            <span class="pops">8</span>
-                        </a>
-                        <div class="shopcart_dropdown">
-                            <div class="cart_droptitle">
-                                <h4 class="text_lg">2 Items</h4>
-                            </div>
-                            <div class="cartsdrop_wrap">
-                                <a href="product-view.html" class="single_cartdrop mb-3">
-                                    <span class="remove_cart"><i class="las la-times"></i></span>
-                                    <div class="cartdrop_img">
-                                        <img loading="lazy"  src="assets/images/shoes-5.png" alt="product">
-                                    </div>
-                                    <div class="cartdrop_cont">
-                                        <h5 class="text_lg mb-0 default_link">
-                                            Men casual shoes
-                                        </h5>
-                                        <p class="mb-0 text_xs text_p">x1 <span class="ms-2">$450</span></p>
-                                    </div>
-                                </a>
-                                <a href="product-view.html" class="single_cartdrop">
-                                    <span class="remove_cart"><i class="las la-times"></i></span>
-                                    <div class="cartdrop_img">
-                                        <img loading="lazy"  src="assets/images/headphone-2.png" alt="product">
-                                    </div>
-                                    <div class="cartdrop_cont">
-                                        <h5 class="text_lg mb-0 default_link">
-                                            Men casual shoes
-                                        </h5>
-                                        <p class="mb-0 text_xs text_p">x1 <span class="ms-2">$450</span></p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="total_cartdrop">
-                                <h4 class="text_lg text-uppercase mb-0">Sub Total:</h4>
-                                <h4 class="text_lg mb-0 ms-2">$980.00</h4>
-                            </div>
-                            <div class="cartdrop_footer d-flex mt-3">
-                                <a href="shopping-cart.html" class="default_btn w-50 text_xs px-1">View Cart</a>
-                                 <a href="checkout.html" class="default_btn second ms-3 w-50 text_xs px-1">Checkout</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="position-relative myacwrap">
-                        <a href="javascript:void(0)" class="icon_wrp text-center myacc">
-                            <span class="icon">
-                               <i class="icon-user-line"></i>
-                            </span>
-                            <span class="icon_text">Account</span>
-                        </a>
-                        <div class="myacc_cont">
-                            <div class="ac_join">
-                                <p>Welcome to RAFCART Shop</p>
-                                <div class="account_btn d-flex justify-content-between">
-                                   <a href="register.html" class="default_btn">Join</a>
-                                    <a href="login.html" class="default_btn second">Sing in</a>
-                                </div>
-                            </div>
-                            <div class="ac_links">
-                                  <a href="account.html" class="myac">
-                                    <i class="lar la-id-card"></i>
-                                    My Account
-                                </a>
-                               <a href="account-order-history.html">
-                                    <i class="las la-gift"></i>
-                                    My Order
-                                </a>
-                               <a href="wish-list.html">
-                                    <i class="lar la-heart"></i>
-                                    My Wishlist
-                                </a>
-                                <a href="shopping-cart.html">
-                                     <i class="icon-cart"></i>
-                                    My Cart
-                                </a>
-                                <a href="login.html">
-                                    <i class="las la-power-off"></i>
-                                    Log out
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                    </li>
+                </ul>
 
             </div>
-        </div>
-    </nav>
-
-   <div class="logo-search">
-  
-        <a href="index-1.html">
-            <img loading="lazy"  src="assets/images/svg/logo.svg" alt="logo">
-        </a>
-
-    
-    <div class="search d-flex">
-        <div class="search_category">
-            <select class="nice_select">
-                <option value="">All category</option>
-                <option value="">Men</option>
-            </select>
-        </div>
-        <div class="search_input">
-            <input type="text" placeholder="Search product..." id="show_suggest">
-        </div>
-        <div class="search_subimt">
-            <button>
-                <span class="d-none d-sm-inline-block">Search</span>
-                <span class="d-sm-none d-inline-block"><i class="icon-search-left"></i></span>
-            </button>
         </div>
     </div>
    </div>
@@ -190,14 +122,16 @@
     <!-- top header -->
     <header class="home-2 d-none d-lg-block">
         <div class="container">
-            <div class="d-flex align-items-center">
-               
+            <div class="d-flex align-items-center justify-content-between">
+                <a href="index-2.html" class="mobile_logo d-block d-lg-none">
+                    <img loading="lazy"  src="assets/images/svg/logo-white.svg" alt="logo">
+                </a>
                 <div class="all_category d-none d-lg-block">
                     <div class="bars text-white d-flex align-items-center justify-content-center">
                         <span class="icon">
                             <i class="las la-bars"></i>
                         </span>
-                        <span class="icon_text">Menu Rol</span>
+                        <span class="icon_text">All categories</span>
                     </div>
                     <div class="sub_categories active">
                         <h5 class="d-block position-relative d-lg-none subcats_title">
@@ -317,69 +251,156 @@
                             </div>
                         </div>
                         <a href="#" class="singlecats">
-                           
-                            <span class="txt">Opcion 8</span>
+                            <span class="img_wrp">
+                                <i class="las la-mobile"></i>
+                            </span>
+                            <span class="txt">Mobile</span>
                         </a>
                     </div>
                 </div>
+                <div class="search_wrap d-none d-lg-block">
 
-                <ul class="nav_bar flex-grow-1">
-                    <li class="withsubs">
-                        <a href="index-1.html">Home <span><i class="las la-angle-down"></i></span></a>
-                        <ul class="subnav">
-                            <li><a href="index-1.html">Home page 1 </a></li>
-                            <li><a href="index-2.html">Home page 2</a></li>
-                            <li><a href="index-3.html">Home page 3</a></li>
-                        </ul>
-                    </li>
-                    <li class="withsubs">
-                        <a href="shop-list.html">Shop <span><i class="las la-angle-down"></i></span></a>
-                        <ul class="subnav">
-                            <li><a href="shop-list.html">List view </a></li>
-                            <li><a href="shop-grid.html">Grid view</a></li>
-                            <li><a href="shop-grid-2.html">Grid view 2</a></li>
-                            
-                            <li><a href="shopping-cart.html">Shopping cart</a></li>
-                            <li><a href="product-view.html">Product view</a></li>
-                        </ul>
-                    </li>
-                    <li class="withsubs">
-                        <a href="shop-list.html">Pages <span><i class="las la-angle-down"></i></span></a>
-                        <div class="subnav py-3 px-2 d-flex gx-4">
-                            <div class="single_subnav">
-                                <h5 class="text_lg ps-3 mb-2">Others pages</h5>
-                                <ul>
-                                    <li><a href="about-us.html">About us</a></li>
-                                    <li><a href="contact-us.html">Contact us</a></li>
+                    <div class="search d-flex">
+                        <div class="search_category">
+                            <select class="nice_select">
+                                <option value="">All category</option>
+                                <option value="">Men</option>
+                            </select>
+                        </div>
+                        <div class="search_input">
+                            <input type="text" placeholder="Search product..." id="show_suggest">
+                        </div>
+                        <div class="search_subimt">
+                            <button>
+                                <span class="d-none d-sm-inline-block">Search</span>
+                                <span class="d-sm-none d-inline-block"><i class="icon-search-left"></i></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="search_suggest shadow-sm">
+                        <div class="search_result_product">
+                            <a href="product-view.html" class="single_sresult_product">
+                                <div class="sresult_img">
+                                    <img loading="lazy"  src="assets/images/laptop-2.png" alt="product">
+                                </div>
+                                <div class="sresult_content">
+                                    <h4>HP Pavilion 15</h4>
+                                    <div class="price">
+                                        <span class="org_price">$45.00</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="product-view.html" class="single_sresult_product">
+                                <div class="sresult_img">
+                                    <img loading="lazy"  src="assets/images/laptop-1.png" alt="product">
+                                </div>
+                                <div class="sresult_content">
+                                    <h4>HP Pavilion 15</h4>
+                                    <div class="price">
+                                        <span class="org_price">$45.00</span>
+                                    </div>
+                                </div>
+                            </a>
 
-                                    <li><a href="track-order.html">Track order</a></li>
-                                    <li><a href="faq.html">FAQ</a></li>
-                                    <li><a href="404.html">404</a></li>
-                                </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="header_icon d-flex align-items-center">
+                    <a href="wish-list.html" class="icon_wrp text-center wishlist ms-0">
+                        <span class="icon">
+                            <i class="icon-heart"></i>
+                        </span>
+                        <span class="icon_text">Wish List</span>
+                        <span class="pops">6</span>
+                    </a>
+                    <div class="shopcart">
+                        <a href="shopping-cart.html" class="icon_wrp text-center d-none d-lg-block">
+                            <span class="icon">
+                                <i class="icon-cart"></i>
+                            </span>
+                            <span class="icon_text">Cart</span>
+                            <span class="pops">8</span>
+                        </a>
+                        <div class="shopcart_dropdown">
+                            <div class="cart_droptitle">
+                                <h4 class="text_lg">2 Items</h4>
                             </div>
-                            <div class="single_subnav">
-                                <h5 class="text_lg ps-3 mb-2">Account pages</h5>
-                                <ul>
-                                    <li><a href="account.html">My Account</a></li>
-                                    <li><a href="login.html">Login</a></li>
-                                    <li><a href="register.html">Register</a></li>
-                                    <li><a href="forgot-password.html">Forgot password</a></li>
-                                </ul>
+                            <div class="cartsdrop_wrap">
+                                <a href="product-view.html" class="single_cartdrop mb-3">
+                                    <span class="remove_cart"><i class="las la-times"></i></span>
+                                    <div class="cartdrop_img">
+                                        <img loading="lazy"  src="assets/images/shoes-5.png" alt="product">
+                                    </div>
+                                    <div class="cartdrop_cont">
+                                        <h5 class="text_lg mb-0 default_link">
+                                            Men casual shoes
+                                        </h5>
+                                        <p class="mb-0 text_xs text_p">x1 <span class="ms-2">$450</span></p>
+                                    </div>
+                                </a>
+                                <a href="product-view.html" class="single_cartdrop">
+                                    <span class="remove_cart"><i class="las la-times"></i></span>
+                                    <div class="cartdrop_img">
+                                        <img loading="lazy"  src="assets/images/headphone-2.png" alt="product">
+                                    </div>
+                                    <div class="cartdrop_cont">
+                                        <h5 class="text_lg mb-0 default_link">
+                                            Men casual shoes
+                                        </h5>
+                                        <p class="mb-0 text_xs text_p">x1 <span class="ms-2">$450</span></p>
+                                    </div>
+                                </a>
                             </div>
-                            <div class="single_subnav">
-                                <h5 class="text_lg ps-3 mb-2">Checkout page</h5>
-                                <ul>
-                                    <li><a href="checkout.html">Checkout</a></li>
-                                    <li><a href="payment.html">Payment</a></li>
-                                    <li><a href="wish-list.html">Wishlist</a></li>
-                                    <li><a href="order-completed.html">Order complete</a></li>
-                                </ul>
+                            <div class="total_cartdrop">
+                                <h4 class="text_lg text-uppercase mb-0">Sub Total:</h4>
+                                <h4 class="text_lg mb-0 ms-2">$980.00</h4>
+                            </div>
+                            <div class="cartdrop_footer d-flex mt-3">
+                                <a href="shopping-cart.html" class="default_btn w-50 text_xs px-1">View Cart</a>
+                                 <a href="checkout.html" class="default_btn second ms-3 w-50 text_xs px-1">Checkout</a>
                             </div>
                         </div>
-                    </li>
-                    <li><a href="contact-us.html">contact</a></li>
-                  
-                </ul>
+                    </div>
+                    <div class="position-relative myacwrap">
+                        <a href="javascript:void(0)" class="icon_wrp text-center myacc">
+                            <span class="icon">
+                               <i class="icon-user-line"></i>
+                            </span>
+                            <span class="icon_text">Account</span>
+                        </a>
+                        <div class="myacc_cont">
+                            <div class="ac_join">
+                                <p>Welcome to RAFCART Shop</p>
+                                <div class="account_btn d-flex justify-content-between">
+                                   <a href="register.html" class="default_btn">Join</a>
+                                    <a href="login.html" class="default_btn second">Sing in</a>
+                                </div>
+                            </div>
+                            <div class="ac_links">
+                                  <a href="account.html" class="myac">
+                                    <i class="lar la-id-card"></i>
+                                    My Account
+                                </a>
+                               <a href="account-order-history.html">
+                                    <i class="las la-gift"></i>
+                                    My Order
+                                </a>
+                               <a href="wish-list.html">
+                                    <i class="lar la-heart"></i>
+                                    My Wishlist
+                                </a>
+                                <a href="shopping-cart.html">
+                                     <i class="icon-cart"></i>
+                                    My Cart
+                                </a>
+                                <a href="login.html">
+                                    <i class="las la-power-off"></i>
+                                    Log out
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
@@ -431,7 +452,7 @@
             <ul>
                 <li class="withsub">
                     <a href="javascript:void(0)">
-                        Home
+                        Inicio
                     </a>
                     <div class="submn">
                         <a href="index-1.html">Home 1</a>
@@ -442,7 +463,7 @@
 
                 <li class="withsub">
                     <a href="javascript:void(0)">
-                        Shop
+                        Productos
                     </a>
                     <div class="submn">
                         <a href="shop-list.html">List View</a>
@@ -455,7 +476,7 @@
                 </li>
                 <li class="withsub">
                     <a href="javascript:void(0)">
-                        My Account
+                        Mi Cuenta
                     </a>
                     <div class="submn">
                         <a href="account.html">My account</a>
@@ -1961,7 +1982,7 @@
                     <div class="row">
                         <div class="col-12 col-md-6 col-lg-12">
                             <div class="footer_logo">
-                                <img loading="lazy"  src="assets/images/svg/logo.svg" alt="easy shop">
+                                <img loading="lazy"  src="assets/images/logo.png"" alt="easy shop">
                             </div>
                             <div class="footet_text">
                                 <p>Lorem ipsum, or lipsum as it is sometimes kno
@@ -2224,18 +2245,18 @@
                 <div class="close_popup">
                     <i class="las la-times"></i>
                 </div>
-                <h2 class="text-uppercase">Get <span class="text-color">30%</span> off</h2>
+                <h2 class="text-uppercase">Obtén <span class="text-color">30%</span>de descuento</h2>
                 <p class="mb-3">
-                    Subscribe to the newsletter to receive updates about new products.
+                    Identifica los productos en temporada
                 </p>
                 <form class="subscribe_form">
-                    <input type="text" placeholder="Your email address">
+                    <input type="text" placeholder="tu correo electrónico">
                     <button type="submit" class="default_btn">Subscribe</button>
                 </form>
                 <div class="mt-4">
                     <div class="custom_check check_2 d-flex align-items-center justify-content-center">
                         <input type="checkbox" class="check_inp" hidden="" id="save-default">
-                        <label for="save-default">Do not show this again</label>
+                        <label for="save-default">No mostrar de nuevo</label>
                     </div>
                 </div>
             </div>
