@@ -2287,8 +2287,8 @@ button.list_product_btn:hover {
 }
 
 .pbt_single_btn.active {
-    border-color: #FD3D57;
-    color: #FD3D57;
+    border-color: #7AC751;
+    color: #7AC751;
 }
 
 .pbt_info_text p {
@@ -3566,7 +3566,7 @@ form.subscribe_form input {
     font-size: 18px;
     line-height: 21px;
 }
-
+/*
 .single_prof_recorder {
     border: 1px solid #E9E4E4;
     margin-top: 24px;
@@ -3576,9 +3576,9 @@ form.subscribe_form input {
     -ms-grid-columns: (1fr)[4] 130px;
     grid-template-columns: repeat(4, 1fr) 130px;
     grid-row-gap: 24px;
-    padding-bottom: 22px;
+    /*padding-bottom: 22px;
 }
-
+*/
 .prorder_btn {
     -ms-grid-column: 5;
         grid-column-start: 5;
